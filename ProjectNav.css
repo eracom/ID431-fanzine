@@ -9,7 +9,7 @@
     border: 1px solid white;
 
     & * { color: inherit;}
-    & a { 
+    & a, a:visited { 
         padding: 1rem;
         text-decoration-thickness: 1px;
         text-underline-offset: 0.5em;
