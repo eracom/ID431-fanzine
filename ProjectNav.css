@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+#ProjectNav { 
+    font-family: "Public Sans", sans-serif;
+    position: fixed;
+    bottom: 2px; right: 2px;
+    padding: 2rem;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+
+    & * { color: inherit;}
+    & a { 
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.5em;
+    }
+}
