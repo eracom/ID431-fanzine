@@ -20,3 +20,10 @@
         background-color: white;
     }
 }
+
+#ProjectNav a:first-of-type:before{
+    content: "← "
+}
+#ProjectNav a:last-of-type:after{
+    content: " →"
+}
